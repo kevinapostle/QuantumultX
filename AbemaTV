@@ -1,0 +1,7 @@
+# > AbemaTV
+USER-AGENT,AbemaTV*,Streaming
+DOMAIN-SUFFIX,abema.io,Streaming
+DOMAIN-SUFFIX,abema.tv,Streaming
+DOMAIN-SUFFIX,ameba.jp,Streaming
+DOMAIN-SUFFIX,hayabusa.io,Streaming
+DOMAIN-KEYWORD,abematv.akamaized.net,Streaming
