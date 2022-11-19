@@ -83,6 +83,26 @@ static=🇨🇳 国内IP池, direct, proxy, reject, img-url=https://raw.githubus
 
 #
 [filter_remote]
+#AbemaTV
+https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/AbemaTV.list, tag=📺 AbemaTV, force-policy=📺 AbemaTV, update-interval=86400, opt-parser=false, enabled=true
+
+#AppleTV
+https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/AppleTV.list, tag=📺 AppleTV, force-policy=📺 AppleTV, update-interval=86400, opt-parser=false, enabled=true
+
+#HBO
+https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/HBO.list, tag=📺 HBO, force-policy=📺 HBO, update-interval=86400, opt-parser=false, enabled=true
+
+#电报
+https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/Telegram.list, tag=电报, force-policy=电报, update-interval=86400, opt-parser=false, enabled=true
+
+#Spotify
+https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/Spotify.list, tag=Spotify, force-policy=Spotify, update-interval=86400, opt-parser=false, enabled=true
+
+#Twitch
+https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/Twitch.list, tag=Twitch, force-policy=Twitch, update-interval=86400, opt-parser=false, enabled=true
+
+#Twitter
+https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/Twitter.list, tag=Twitter, force-policy=Twitter, update-interval=86400, opt-parser=false, enabled=true
 
 #其他国外流媒体
 https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/media.list, tag=其他国外流媒体, force-policy=🎥 国外流媒体, enabled=true
@@ -118,26 +138,6 @@ https://raw.githubusercontent.com/qdlishao007/quantumult/main/Netflix.list, tag=
 https://raw.githubusercontent.com/qdlishao007/quantumult/main/tiktok.list, tag=🎼 TikTok, force-policy=🎼 TikTok, update-interval=86400, opt-parser=false, enabled=true
 [rewrite_remote]
 
-#AbemaTV
-https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/AbemaTV.list, tag=📺 AbemaTV, force-policy=📺 AbemaTV, update-interval=86400, opt-parser=false, enabled=true
-
-#AppleTV
-https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/AppleTV.list, tag=📺 AppleTV, force-policy=📺 AppleTV, update-interval=86400, opt-parser=false, enabled=true
-
-#HBO
-https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/HBO.list, tag=📺 HBO, force-policy=📺 HBO, update-interval=86400, opt-parser=false, enabled=true
-
-#电报
-https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/Telegram.list, tag=电报, force-policy=电报, update-interval=86400, opt-parser=false, enabled=true
-
-#Spotify
-https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/Spotify.list, tag=Spotify, force-policy=Spotify, update-interval=86400, opt-parser=false, enabled=true
-
-#Twitch
-https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/Twitch.list, tag=Twitch, force-policy=Twitch, update-interval=86400, opt-parser=false, enabled=true
-
-#Twitter
-https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/Twitter.list, tag=Twitter, force-policy=Twitter, update-interval=86400, opt-parser=false, enabled=true
 
 #
 [server_local]
