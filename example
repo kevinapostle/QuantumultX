@@ -50,7 +50,7 @@ static=Netflix, 🇸🇬新加坡节点, 🇺🇸美国节点, 🇼🇸台湾节
 static=TikTok, 🇺🇸美国节点, 🇯🇵日本节点, 🇼🇸台湾节点, 🇰🇷韩国节点, 🇸🇬新加坡节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/TikTok.png
 static=国外流媒体, 🇭🇰香港节点, 🇼🇸台湾节点, 🇸🇬新加坡节点, 🇯🇵日本节点, 🇺🇸美国节点, 🇰🇷韩国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Streaming.png
 static=社交媒体, 🇭🇰香港节点, 🇼🇸台湾节点, 🇸🇬新加坡节点, 🇯🇵日本节点, 🇺🇸美国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
-static=电报, 🇭🇰香港节点, 🇼🇸台湾节点, 🇸🇬新加坡节点, 🇯🇵日本节点, 🇺🇸美国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
+static=Telegram, 🇭🇰香港节点, 🇼🇸台湾节点, 🇸🇬新加坡节点, 🇯🇵日本节点, 🇺🇸美国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
 static=Twitter, 🇭🇰香港节点, 🇼🇸台湾节点, 🇸🇬新加坡节点, 🇯🇵日本节点, 🇺🇸美国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Twitter.png
 static=Twitch, 🇭🇰香港节点, 🇼🇸台湾节点, 🇸🇬新加坡节点, 🇯🇵日本节点, 🇺🇸美国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Clubhouse.png
 static=Spotify, 🇭🇰香港节点, 🇼🇸台湾节点, 🇸🇬新加坡节点, 🇯🇵日本节点, 🇺🇸美国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Spotify.png
@@ -63,11 +63,11 @@ url-latency-benchmark=🇸🇬新加坡节点, server-tag-regex=Singapore, check
 url-latency-benchmark=🇯🇵日本节点, server-tag-regex=Japan, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
 url-latency-benchmark=🇺🇸美国节点, server-tag-regex=United States, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
 url-latency-benchmark=🇰🇷韩国节点, server-tag-regex=Korea, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
-static=🚦去广告, direct, proxy, reject, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Adblock.png
-static=🚫 运营商劫持, direct, proxy, reject, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Adblock.png
+static=去广告, direct, proxy, reject, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Adblock.png
+static=运营商劫持, direct, proxy, reject, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Adblock.png
 static=🍃 应用净化, direct, proxy, reject, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Adblock.png
-static=🐼 国内网站, direct, proxy, reject, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/China.png
-static=🇨🇳 国内IP池, direct, proxy, reject, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/China.png
+static=国内网站, direct, proxy, reject, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/China.png
+static=国内IP池, direct, proxy, reject, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/China.png
 # static 策略组中，你需要手动选择想要的节点/策略组。
 # available 策略组将按顺序选择你列表中第一个可用的节点。
 # round-robin 策略组，将按列表的顺序轮流使用其中的节点。
@@ -82,17 +82,30 @@ static=🇨🇳 国内IP池, direct, proxy, reject, img-url=https://raw.githubus
 
 #
 [filter_remote]
+
+#迪士尼分流
+https://raw.githubusercontent.com/qdlishao007/quantumult/main/disney.list, tag=Disney+, force-policy=Disney+, update-interval=86400, opt-parser=false, enabled=true
+
+#油管分流
+https://raw.githubusercontent.com/qdlishao007/quantumult/main/YouTube.list, tag=YouTube, force-policy=YouTube, update-interval=86400, opt-parser=false, enabled=true
+
+#奈飞分流
+https://raw.githubusercontent.com/qdlishao007/quantumult/main/Netflix.list, tag=Netflix, force-policy=Netflix, update-interval=86400, opt-parser=false, enabled=true
+
+#tiktok分流
+https://raw.githubusercontent.com/qdlishao007/quantumult/main/tiktok.list, tag=TikTok, force-policy=TikTok, update-interval=86400, opt-parser=false, enabled=true
+
 #AbemaTV
-https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/AbemaTV.list, tag=📺 AbemaTV, force-policy=📺 AbemaTV, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/AbemaTV.list, tag=AbemaTV, force-policy=AbemaTV, update-interval=86400, opt-parser=false, enabled=true
 
 #AppleTV
-https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/AppleTV.list, tag=📺 AppleTV, force-policy=📺 AppleTV, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/AppleTV.list, tag=AppleTV, force-policy=AppleTV, update-interval=86400, opt-parser=false, enabled=true
 
 #HBO
-https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/HBO.list, tag=📺 HBO, force-policy=📺 HBO, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/HBO.list, tag=HBO, force-policy=HBO, update-interval=86400, opt-parser=false, enabled=true
 
 #电报
-https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/Telegram.list, tag=电报, force-policy=电报, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/Telegram.list, tag=Telegram, force-policy=Telegram, update-interval=86400, opt-parser=false, enabled=true
 
 #Spotify
 https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/Spotify.list, tag=Spotify, force-policy=Spotify, update-interval=86400, opt-parser=false, enabled=true
@@ -104,37 +117,26 @@ https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/Twitch.list, tag
 https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/Twitter.list, tag=Twitter, force-policy=Twitter, update-interval=86400, opt-parser=false, enabled=true
 
 #其他国外流媒体
-https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/media.list, tag=其他国外流媒体, force-policy=🎥 国外流媒体, enabled=true
+https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/media.list, tag=其他国外流媒体, force-policy=国外流媒体, enabled=true
 
 #通讯社交
-https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/SocialMedia.list, tag=社交媒体, force-policy=📲 社交媒体, enabled=true
+https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/SocialMedia.list, tag=社交媒体, force-policy=社交媒体, enabled=true
 
 #国内IP
-https://raw.githubusercontent.com/qdlishao007/quantumult/main/chinaip.list, tag=🇨🇳 国内IP池, force-policy=🇨🇳 国内IP池,  enabled=true
+https://raw.githubusercontent.com/qdlishao007/quantumult/main/chinaip.list, tag=国内IP池, force-policy=国内IP池,  enabled=true
 
 #国内网站
-https://raw.githubusercontent.com/qdlishao007/quantumult/main/china.list, tag=🐼 国内网站, force-policy=🐼 国内网站, enabled=true
+https://raw.githubusercontent.com/qdlishao007/quantumult/main/china.list, tag=国内网站, force-policy=国内网站, enabled=true
 
 #应用净化
 https://raw.githubusercontent.com/qdlishao007/quantumult/main/clean.list, tag=🍃 应用净化, force-policy=🍃 应用净化, enabled=true
 
 #运营商劫持
-https://raw.githubusercontent.com/qdlishao007/quantumult/main/yunyingshang.list, tag=🚫 运营商劫持, force-policy=🚫 运营商劫持, enabled=true
+https://raw.githubusercontent.com/qdlishao007/quantumult/main/yunyingshang.list, tag=运营商劫持, force-policy=运营商劫持, enabled=true
 
 #去广告
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Advertising.list, tag=🚦去广告, force-policy=🚦去广告, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Advertising.list, tag=去广告, force-policy=去广告, update-interval=86400, opt-parser=true, enabled=true
 
-#迪士尼分流
-https://raw.githubusercontent.com/qdlishao007/quantumult/main/disney.list, tag=🎅 Disney+, force-policy=🎅 Disney+, update-interval=86400, opt-parser=false, enabled=true
-
-#油管分流
-https://raw.githubusercontent.com/qdlishao007/quantumult/main/YouTube.list, tag=🎥 YouTube, force-policy=🎥 YouTube, update-interval=86400, opt-parser=false, enabled=true
-
-#奈飞分流
-https://raw.githubusercontent.com/qdlishao007/quantumult/main/Netflix.list, tag=📺 Netflix, force-policy=📺 Netflix, update-interval=86400, opt-parser=false, enabled=true
-
-#tiktok分流
-https://raw.githubusercontent.com/qdlishao007/quantumult/main/tiktok.list, tag=🎼 TikTok, force-policy=🎼 TikTok, update-interval=86400, opt-parser=false, enabled=true
 [rewrite_remote]
 
 
