@@ -116,6 +116,9 @@ https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/Twitch.list, tag
 #Twitter
 https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/Twitter.list, tag=Twitter, force-policy=Twitter, update-interval=86400, opt-parser=false, enabled=true
 
+#暴雪战网
+https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/Blizzard.list, tag=暴雪战网, force-policy=暴雪战网, update-interval=86400, opt-parser=false, enabled=true
+
 #其他国外流媒体
 https://raw.githubusercontent.com/kevinapostle/QuantumultX/main/media.list, tag=其他国外流媒体, force-policy=国外流媒体, enabled=true
 
