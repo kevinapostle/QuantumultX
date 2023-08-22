@@ -1,6 +1,6 @@
 # > Apple TV
-DOMAIN,linear.tv.apple.com,Streaming
-DOMAIN,play-edge.itunes.apple.com,Streaming
-DOMAIN,uts-api.itunes.apple.com,Streaming
+DOMAIN,linear.tv.apple.com,Apple TV
+DOMAIN,play-edge.itunes.apple.com,Apple TV
+DOMAIN,uts-api.itunes.apple.com,Apple TV
 # > Apple Music TV
-DOMAIN,tv.applemusic.com,Streaming
+DOMAIN,tv.applemusic.com,Apple TV
