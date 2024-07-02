@@ -44,11 +44,11 @@ server=/*.mi.com/119.29.29.29
 
 #
 [policy]
-static=Disney+, 🇭🇰香港节点, 🇼🇸台湾节点, 🇸🇬新加坡节点, 🇯🇵日本节点, 🇺🇸美国节点, 🇰🇷韩国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/DisneyPlus.png
+static=Disney+, 🇭🇰香港节点, 🇼🇸台湾节点, 🇸🇬新加坡节点, 🇯🇵日本节点, 🇺🇸美国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/DisneyPlus.png
 static=YouTube, 🇭🇰香港节点, 🇼🇸台湾节点, 🇯🇵日本节点, 🇺🇸美国节点, 🇸🇬新加坡节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/YouTube.png
-static=Netflix, 🇸🇬新加坡节点, 🇺🇸美国节点, 🇼🇸台湾节点, 🇭🇰香港节点, 🇯🇵日本节点, 🇰🇷韩国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netflix.png
+static=Netflix, 🇸🇬新加坡节点, 🇺🇸美国节点, 🇼🇸台湾节点, 🇭🇰香港节点, 🇯🇵日本节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netflix.png
 static=TikTok, 🇺🇸美国节点, 🇯🇵日本节点, 🇼🇸台湾节点, 🇰🇷韩国节点, 🇸🇬新加坡节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/TikTok.png
-static=国外流媒体, 🇭🇰香港节点, 🇼🇸台湾节点, 🇸🇬新加坡节点, 🇯🇵日本节点, 🇺🇸美国节点, 🇰🇷韩国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Streaming.png
+static=国外流媒体, 🇭🇰香港节点, 🇼🇸台湾节点, 🇸🇬新加坡节点, 🇯🇵日本节点, 🇺🇸美国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Streaming.png
 static=社交媒体, 🇭🇰香港节点, 🇼🇸台湾节点, 🇸🇬新加坡节点, 🇯🇵日本节点, 🇺🇸美国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
 static=Telegram, 🇭🇰香港节点, 🇼🇸台湾节点, 🇸🇬新加坡节点, 🇯🇵日本节点, 🇺🇸美国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
 static=Twitter, 🇭🇰香港节点, 🇼🇸台湾节点, 🇸🇬新加坡节点, 🇯🇵日本节点, 🇺🇸美国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Twitter.png
@@ -62,8 +62,7 @@ url-latency-benchmark=🇼🇸台湾节点, server-tag-regex=Taiwan, check-inter
 url-latency-benchmark=🇸🇬新加坡节点, server-tag-regex=Singapore, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
 url-latency-benchmark=🇯🇵日本节点, server-tag-regex=Japan, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
 url-latency-benchmark=🇺🇸美国节点, server-tag-regex=United States, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
-url-latency-benchmark=🇰🇷韩国节点, server-tag-regex=Korea, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
-static=去广告, direct, proxy, reject, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Adblock.png
+static=🛑 广告拦截, REJECT, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/limbopro/Qure/master/IconSet/Advertising.png
 static=运营商劫持, direct, proxy, reject, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Adblock.png
 static=🍃 应用净化, direct, proxy, reject, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Adblock.png
 static=国内网站, direct, proxy, reject, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/China.png
@@ -138,7 +137,7 @@ https://raw.githubusercontent.com/qdlishao007/quantumult/main/clean.list, tag=�
 https://raw.githubusercontent.com/qdlishao007/quantumult/main/yunyingshang.list, tag=运营商劫持, force-policy=运营商劫持, enabled=true
 
 #去广告
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Advertising.list, tag=去广告, force-policy=去广告, update-interval=86400, opt-parser=true, enabled=true
+https://limbopro.com/Adblock4limbo.list, tag=毒奶特供(去网页广告计划), force-policy=🛑 广告拦截, enabled=true
 
 [rewrite_remote]
 
